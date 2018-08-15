@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.app">
+	<class name="Student" table="stutab">
+		<id name="stdId" column="stdid" />
+		<property name="stdName" column="stdname" />
+		<property name="stdFee" column="stdfee" />
+	</class>
+</hibernate-mapping>
+F
